@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		892A2A9F1CD7955D00FB7ECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892A2A9B1CD7955D00FB7ECA /* LaunchScreen.storyboard */; };
+		892A2AA01CD7955D00FB7ECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892A2A9D1CD7955D00FB7ECA /* Main.storyboard */; };
+		892A2AB31CD7DA9A00FB7ECA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 892A2AB21CD7DA9A00FB7ECA /* Images.xcassets */; };
+		AA5AEB691CD3166500EB45C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5AEB681CD3166500EB45C4 /* main.m */; };
+		AA5AEB6C1CD3166500EB45C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5AEB6B1CD3166500EB45C4 /* AppDelegate.m */; };
+		AA5AEB6F1CD3166500EB45C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA5AEB6E1CD3166500EB45C4 /* ViewController.m */; };
+		AA5AEB9B1CD3186700EB45C4 /* BrightcovePlayerSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA5AEB931CD3185500EB45C4 /* BrightcovePlayerSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AA5AEB9F1CD3186A00EB45C4 /* BrightcovePlayerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5AEB931CD3185500EB45C4 /* BrightcovePlayerSDK.framework */; };
+		AA5AEBA11CD318A500EB45C4 /* AdManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5AEB911CD3185500EB45C4 /* AdManager.framework */; };
+		AA5AEBA21CD318C500EB45C4 /* BrightcoveFW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5AEB921CD3185500EB45C4 /* BrightcoveFW.framework */; };
+		AA5AEBA31CD318D400EB45C4 /* BrightcovePlayerUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5AEB941CD3185500EB45C4 /* BrightcovePlayerUI.framework */; };
+		AA5AEBA41CD318E100EB45C4 /* BrightcovePlayerUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AA5AEB941CD3185500EB45C4 /* BrightcovePlayerUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AA5AEBB81CD3198800EB45C4 /* bcov.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5AEBB11CD3198800EB45C4 /* bcov.png */; };
+		AA5AEBB91CD3198800EB45C4 /* bcov_logo_horizontal_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5AEBB21CD3198800EB45C4 /* bcov_logo_horizontal_grey.png */; };
+		AA5AEBBA1CD3198800EB45C4 /* bcov_logo_horizontal_white.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5AEBB31CD3198800EB45C4 /* bcov_logo_horizontal_white.png */; };
+		AA5AEBBB1CD3198800EB45C4 /* bcov_logo_stacked_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5AEBB41CD3198800EB45C4 /* bcov_logo_stacked_grey.png */; };
+		AA5AEBBC1CD3198800EB45C4 /* bcov_logo_stacked_white.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5AEBB51CD3198800EB45C4 /* bcov_logo_stacked_white.png */; };
+		AA5AEBBD1CD3198800EB45C4 /* play-logo-ondark.png in Resources */ = {isa = PBXBuildFile; fileRef = AA5AEBB61CD3198800EB45C4 /* play-logo-ondark.png */; };
+		AAC9E9481CD65C86004336A3 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC9E9471CD65C86004336A3 /* libxml2.tbd */; };
+		AAC9E94A1CD65C9F004336A3 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC9E9491CD65C9F004336A3 /* EventKit.framework */; };
+		AAC9E94C1CD65CB5004336A3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC9E94B1CD65CB5004336A3 /* CoreLocation.framework */; };
+		AAC9E94E1CD65CF4004336A3 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC9E94D1CD65CF4004336A3 /* MessageUI.framework */; };
+		AAC9E9501CD65D17004336A3 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC9E94F1CD65D17004336A3 /* AdSupport.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA5AEB8F1CD316DE00EB45C4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AA5AEBA41CD318E100EB45C4 /* BrightcovePlayerUI.framework in Embed Frameworks */,
+				AA5AEB9B1CD3186700EB45C4 /* BrightcovePlayerSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		892A2A921CD7951D00FB7ECA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		892A2A9C1CD7955D00FB7ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		892A2A9E1CD7955D00FB7ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		892A2AB21CD7DA9A00FB7ECA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AA5AEB641CD3166500EB45C4 /* PlayTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA5AEB681CD3166500EB45C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA5AEB6A1CD3166500EB45C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA5AEB6B1CD3166500EB45C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA5AEB6D1CD3166500EB45C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA5AEB6E1CD3166500EB45C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA5AEB781CD3166500EB45C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA5AEB911CD3185500EB45C4 /* AdManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdManager.framework; sourceTree = "<group>"; };
+		AA5AEB921CD3185500EB45C4 /* BrightcoveFW.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BrightcoveFW.framework; sourceTree = "<group>"; };
+		AA5AEB931CD3185500EB45C4 /* BrightcovePlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BrightcovePlayerSDK.framework; sourceTree = "<group>"; };
+		AA5AEB941CD3185500EB45C4 /* BrightcovePlayerUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BrightcovePlayerUI.framework; sourceTree = "<group>"; };
+		AA5AEBB11CD3198800EB45C4 /* bcov.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bcov.png; sourceTree = "<group>"; };
+		AA5AEBB21CD3198800EB45C4 /* bcov_logo_horizontal_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bcov_logo_horizontal_grey.png; sourceTree = "<group>"; };
+		AA5AEBB31CD3198800EB45C4 /* bcov_logo_horizontal_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bcov_logo_horizontal_white.png; sourceTree = "<group>"; };
+		AA5AEBB41CD3198800EB45C4 /* bcov_logo_stacked_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bcov_logo_stacked_grey.png; sourceTree = "<group>"; };
+		AA5AEBB51CD3198800EB45C4 /* bcov_logo_stacked_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bcov_logo_stacked_white.png; sourceTree = "<group>"; };
+		AA5AEBB61CD3198800EB45C4 /* play-logo-ondark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-logo-ondark.png"; sourceTree = "<group>"; };
+		AAC9E9471CD65C86004336A3 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		AAC9E9491CD65C9F004336A3 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		AAC9E94B1CD65CB5004336A3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AAC9E94D1CD65CF4004336A3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		AAC9E94F1CD65D17004336A3 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA5AEB611CD3166500EB45C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5AEBA11CD318A500EB45C4 /* AdManager.framework in Frameworks */,
+				AAC9E9501CD65D17004336A3 /* AdSupport.framework in Frameworks */,
+				AA5AEBA21CD318C500EB45C4 /* BrightcoveFW.framework in Frameworks */,
+				AA5AEB9F1CD3186A00EB45C4 /* BrightcovePlayerSDK.framework in Frameworks */,
+				AA5AEBA31CD318D400EB45C4 /* BrightcovePlayerUI.framework in Frameworks */,
+				AAC9E94C1CD65CB5004336A3 /* CoreLocation.framework in Frameworks */,
+				AAC9E94A1CD65C9F004336A3 /* EventKit.framework in Frameworks */,
+				AAC9E9481CD65C86004336A3 /* libxml2.tbd in Frameworks */,
+				AAC9E94E1CD65CF4004336A3 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		892A2A9A1CD7955D00FB7ECA /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				892A2A9B1CD7955D00FB7ECA /* LaunchScreen.storyboard */,
+				892A2A9D1CD7955D00FB7ECA /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		AA5AEB5B1CD3166500EB45C4 = {
+			isa = PBXGroup;
+			children = (
+				AA5AEB661CD3166500EB45C4 /* PlayTwo */,
+				AA5AEBB01CD3198800EB45C4 /* logos */,
+				AA5AEB901CD3185500EB45C4 /* Frameworks */,
+				AA5AEB651CD3166500EB45C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA5AEB651CD3166500EB45C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA5AEB641CD3166500EB45C4 /* PlayTwo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA5AEB661CD3166500EB45C4 /* PlayTwo */ = {
+			isa = PBXGroup;
+			children = (
+				AA5AEB6A1CD3166500EB45C4 /* AppDelegate.h */,
+				AA5AEB6B1CD3166500EB45C4 /* AppDelegate.m */,
+				AA5AEB6D1CD3166500EB45C4 /* ViewController.h */,
+				AA5AEB6E1CD3166500EB45C4 /* ViewController.m */,
+				AA5AEB781CD3166500EB45C4 /* Info.plist */,
+				AA5AEB671CD3166500EB45C4 /* Supporting Files */,
+			);
+			path = PlayTwo;
+			sourceTree = "<group>";
+		};
+		AA5AEB671CD3166500EB45C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				892A2AB21CD7DA9A00FB7ECA /* Images.xcassets */,
+				892A2A921CD7951D00FB7ECA /* Info.plist */,
+				AA5AEB681CD3166500EB45C4 /* main.m */,
+				892A2A9A1CD7955D00FB7ECA /* Base.lproj */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA5AEB901CD3185500EB45C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAC9E94F1CD65D17004336A3 /* AdSupport.framework */,
+				AAC9E94D1CD65CF4004336A3 /* MessageUI.framework */,
+				AAC9E94B1CD65CB5004336A3 /* CoreLocation.framework */,
+				AAC9E9491CD65C9F004336A3 /* EventKit.framework */,
+				AAC9E9471CD65C86004336A3 /* libxml2.tbd */,
+				AA5AEB911CD3185500EB45C4 /* AdManager.framework */,
+				AA5AEB921CD3185500EB45C4 /* BrightcoveFW.framework */,
+				AA5AEB931CD3185500EB45C4 /* BrightcovePlayerSDK.framework */,
+				AA5AEB941CD3185500EB45C4 /* BrightcovePlayerUI.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA5AEBB01CD3198800EB45C4 /* logos */ = {
+			isa = PBXGroup;
+			children = (
+				AA5AEBB11CD3198800EB45C4 /* bcov.png */,
+				AA5AEBB21CD3198800EB45C4 /* bcov_logo_horizontal_grey.png */,
+				AA5AEBB31CD3198800EB45C4 /* bcov_logo_horizontal_white.png */,
+				AA5AEBB41CD3198800EB45C4 /* bcov_logo_stacked_grey.png */,
+				AA5AEBB51CD3198800EB45C4 /* bcov_logo_stacked_white.png */,
+				AA5AEBB61CD3198800EB45C4 /* play-logo-ondark.png */,
+			);
+			name = logos;
+			path = ../logos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA5AEB631CD3166500EB45C4 /* PlayTwo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5AEB7B1CD3166500EB45C4 /* Build configuration list for PBXNativeTarget "PlayTwo" */;
+			buildPhases = (
+				AA5AEB601CD3166500EB45C4 /* Sources */,
+				AA5AEB611CD3166500EB45C4 /* Frameworks */,
+				AA5AEB621CD3166500EB45C4 /* Resources */,
+				AA5AEB8F1CD316DE00EB45C4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayTwo;
+			productName = PlayTwo;
+			productReference = AA5AEB641CD3166500EB45C4 /* PlayTwo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA5AEB5C1CD3166500EB45C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Brightcove;
+				TargetAttributes = {
+					AA5AEB631CD3166500EB45C4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = AA5AEB5F1CD3166500EB45C4 /* Build configuration list for PBXProject "PlayTwo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA5AEB5B1CD3166500EB45C4;
+			productRefGroup = AA5AEB651CD3166500EB45C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA5AEB631CD3166500EB45C4 /* PlayTwo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA5AEB621CD3166500EB45C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5AEBBC1CD3198800EB45C4 /* bcov_logo_stacked_white.png in Resources */,
+				892A2AB31CD7DA9A00FB7ECA /* Images.xcassets in Resources */,
+				AA5AEBB81CD3198800EB45C4 /* bcov.png in Resources */,
+				892A2AA01CD7955D00FB7ECA /* Main.storyboard in Resources */,
+				AA5AEBBB1CD3198800EB45C4 /* bcov_logo_stacked_grey.png in Resources */,
+				AA5AEBBA1CD3198800EB45C4 /* bcov_logo_horizontal_white.png in Resources */,
+				892A2A9F1CD7955D00FB7ECA /* LaunchScreen.storyboard in Resources */,
+				AA5AEBB91CD3198800EB45C4 /* bcov_logo_horizontal_grey.png in Resources */,
+				AA5AEBBD1CD3198800EB45C4 /* play-logo-ondark.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA5AEB601CD3166500EB45C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA5AEB6F1CD3166500EB45C4 /* ViewController.m in Sources */,
+				AA5AEB6C1CD3166500EB45C4 /* AppDelegate.m in Sources */,
+				AA5AEB691CD3166500EB45C4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		892A2A9B1CD7955D00FB7ECA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				892A2A9C1CD7955D00FB7ECA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		892A2A9D1CD7955D00FB7ECA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				892A2A9E1CD7955D00FB7ECA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA5AEB791CD3166500EB45C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA5AEB7A1CD3166500EB45C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA5AEB7C1CD3166500EB45C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = PlayTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightcove.PlayTwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA5AEB7D1CD3166500EB45C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = PlayTwo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightcove.PlayTwo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA5AEB5F1CD3166500EB45C4 /* Build configuration list for PBXProject "PlayTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5AEB791CD3166500EB45C4 /* Debug */,
+				AA5AEB7A1CD3166500EB45C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5AEB7B1CD3166500EB45C4 /* Build configuration list for PBXNativeTarget "PlayTwo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5AEB7C1CD3166500EB45C4 /* Debug */,
+				AA5AEB7D1CD3166500EB45C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA5AEB5C1CD3166500EB45C4 /* Project object */;
+}

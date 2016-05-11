@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA4238B21CD29D170088E2A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4238A81CD29D170088E2A2 /* AppDelegate.m */; };
+		AA4238B31CD29D170088E2A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4238A91CD29D170088E2A2 /* LaunchScreen.storyboard */; };
+		AA4238B41CD29D170088E2A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4238AB1CD29D170088E2A2 /* Main.storyboard */; };
+		AA4238B51CD29D170088E2A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4238AD1CD29D170088E2A2 /* Images.xcassets */; };
+		AA4238B71CD29D170088E2A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4238AF1CD29D170088E2A2 /* main.m */; };
+		AA4238B81CD29D170088E2A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4238B11CD29D170088E2A2 /* ViewController.m */; };
+		AA4238C21CD29DD80088E2A2 /* bcov.png in Resources */ = {isa = PBXBuildFile; fileRef = AA4238BB1CD29DD80088E2A2 /* bcov.png */; };
+		AA4238C31CD29DD80088E2A2 /* bcov_logo_horizontal_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = AA4238BC1CD29DD80088E2A2 /* bcov_logo_horizontal_grey.png */; };
+		AA4238C41CD29DD80088E2A2 /* bcov_logo_horizontal_white.png in Resources */ = {isa = PBXBuildFile; fileRef = AA4238BD1CD29DD80088E2A2 /* bcov_logo_horizontal_white.png */; };
+		AA4238C51CD29DD80088E2A2 /* bcov_logo_stacked_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = AA4238BE1CD29DD80088E2A2 /* bcov_logo_stacked_grey.png */; };
+		AA4238C61CD29DD80088E2A2 /* bcov_logo_stacked_white.png in Resources */ = {isa = PBXBuildFile; fileRef = AA4238BF1CD29DD80088E2A2 /* bcov_logo_stacked_white.png */; };
+		AA4238C71CD29DD80088E2A2 /* play-logo-ondark.png in Resources */ = {isa = PBXBuildFile; fileRef = AA4238C01CD29DD80088E2A2 /* play-logo-ondark.png */; };
+		AAE6F34B1CD06FDF00435DEB /* BrightcovePlayerSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE6F34A1CD06FDF00435DEB /* BrightcovePlayerSDK.framework */; };
+		AAE6F34D1CD0702300435DEB /* BrightcovePlayerSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AAE6F34A1CD06FDF00435DEB /* BrightcovePlayerSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AAE6F3471CD06B9C00435DEB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AAE6F34D1CD0702300435DEB /* BrightcovePlayerSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA4238A71CD29D170088E2A2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA4238A81CD29D170088E2A2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA4238AA1CD29D170088E2A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA4238AC1CD29D170088E2A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA4238AD1CD29D170088E2A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AA4238AE1CD29D170088E2A2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA4238AF1CD29D170088E2A2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA4238B01CD29D170088E2A2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA4238B11CD29D170088E2A2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA4238BB1CD29DD80088E2A2 /* bcov.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bcov.png; sourceTree = "<group>"; };
+		AA4238BC1CD29DD80088E2A2 /* bcov_logo_horizontal_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bcov_logo_horizontal_grey.png; sourceTree = "<group>"; };
+		AA4238BD1CD29DD80088E2A2 /* bcov_logo_horizontal_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bcov_logo_horizontal_white.png; sourceTree = "<group>"; };
+		AA4238BE1CD29DD80088E2A2 /* bcov_logo_stacked_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bcov_logo_stacked_grey.png; sourceTree = "<group>"; };
+		AA4238BF1CD29DD80088E2A2 /* bcov_logo_stacked_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bcov_logo_stacked_white.png; sourceTree = "<group>"; };
+		AA4238C01CD29DD80088E2A2 /* play-logo-ondark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-logo-ondark.png"; sourceTree = "<group>"; };
+		AAE6F3211CD067CF00435DEB /* PlayOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE6F34A1CD06FDF00435DEB /* BrightcovePlayerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BrightcovePlayerSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAE6F31E1CD067CF00435DEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAE6F34B1CD06FDF00435DEB /* BrightcovePlayerSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA4238A31CD29C640088E2A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F34A1CD06FDF00435DEB /* BrightcovePlayerSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA4238A61CD29D170088E2A2 /* PlayOne */ = {
+			isa = PBXGroup;
+			children = (
+				AA4238A71CD29D170088E2A2 /* AppDelegate.h */,
+				AA4238A81CD29D170088E2A2 /* AppDelegate.m */,
+				AA4238B01CD29D170088E2A2 /* ViewController.h */,
+				AA4238B11CD29D170088E2A2 /* ViewController.m */,
+				AA4238BA1CD29DD80088E2A2 /* logos */,
+				AA4238B91CD29D480088E2A2 /* Supporting Files */,
+			);
+			path = PlayOne;
+			sourceTree = "<group>";
+		};
+		AA4238B91CD29D480088E2A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA4238A91CD29D170088E2A2 /* LaunchScreen.storyboard */,
+				AA4238AB1CD29D170088E2A2 /* Main.storyboard */,
+				AA4238AD1CD29D170088E2A2 /* Images.xcassets */,
+				AA4238AE1CD29D170088E2A2 /* Info.plist */,
+				AA4238AF1CD29D170088E2A2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA4238BA1CD29DD80088E2A2 /* logos */ = {
+			isa = PBXGroup;
+			children = (
+				AA4238BB1CD29DD80088E2A2 /* bcov.png */,
+				AA4238BC1CD29DD80088E2A2 /* bcov_logo_horizontal_grey.png */,
+				AA4238BD1CD29DD80088E2A2 /* bcov_logo_horizontal_white.png */,
+				AA4238BE1CD29DD80088E2A2 /* bcov_logo_stacked_grey.png */,
+				AA4238BF1CD29DD80088E2A2 /* bcov_logo_stacked_white.png */,
+				AA4238C01CD29DD80088E2A2 /* play-logo-ondark.png */,
+			);
+			name = logos;
+			path = ../../logos;
+			sourceTree = "<group>";
+		};
+		AAE6F3181CD067CF00435DEB = {
+			isa = PBXGroup;
+			children = (
+				AA4238A61CD29D170088E2A2 /* PlayOne */,
+				AA4238A31CD29C640088E2A2 /* Frameworks */,
+				AAE6F3221CD067CF00435DEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAE6F3221CD067CF00435DEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAE6F3211CD067CF00435DEB /* PlayOne.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAE6F3201CD067CF00435DEB /* PlayOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAE6F3381CD067CF00435DEB /* Build configuration list for PBXNativeTarget "PlayOne" */;
+			buildPhases = (
+				AAE6F31D1CD067CF00435DEB /* Sources */,
+				AAE6F31E1CD067CF00435DEB /* Frameworks */,
+				AAE6F31F1CD067CF00435DEB /* Resources */,
+				AAE6F3471CD06B9C00435DEB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayOne;
+			productName = Play1;
+			productReference = AAE6F3211CD067CF00435DEB /* PlayOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAE6F3191CD067CF00435DEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Brightcove;
+				TargetAttributes = {
+					AAE6F3201CD067CF00435DEB = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = AAE6F31C1CD067CF00435DEB /* Build configuration list for PBXProject "PlayOne" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAE6F3181CD067CF00435DEB;
+			productRefGroup = AAE6F3221CD067CF00435DEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAE6F3201CD067CF00435DEB /* PlayOne */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAE6F31F1CD067CF00435DEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4238C61CD29DD80088E2A2 /* bcov_logo_stacked_white.png in Resources */,
+				AA4238C21CD29DD80088E2A2 /* bcov.png in Resources */,
+				AA4238B51CD29D170088E2A2 /* Images.xcassets in Resources */,
+				AA4238C51CD29DD80088E2A2 /* bcov_logo_stacked_grey.png in Resources */,
+				AA4238C41CD29DD80088E2A2 /* bcov_logo_horizontal_white.png in Resources */,
+				AA4238B31CD29D170088E2A2 /* LaunchScreen.storyboard in Resources */,
+				AA4238B41CD29D170088E2A2 /* Main.storyboard in Resources */,
+				AA4238C31CD29DD80088E2A2 /* bcov_logo_horizontal_grey.png in Resources */,
+				AA4238C71CD29DD80088E2A2 /* play-logo-ondark.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAE6F31D1CD067CF00435DEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4238B81CD29D170088E2A2 /* ViewController.m in Sources */,
+				AA4238B71CD29D170088E2A2 /* main.m in Sources */,
+				AA4238B21CD29D170088E2A2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA4238A91CD29D170088E2A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA4238AA1CD29D170088E2A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AA4238AB1CD29D170088E2A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA4238AC1CD29D170088E2A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAE6F3361CD067CF00435DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAE6F3371CD067CF00435DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAE6F3391CD067CF00435DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "$(SRCROOT)/PlayOne/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightcove.PlayOne;
+				PRODUCT_NAME = PlayOne;
+			};
+			name = Debug;
+		};
+		AAE6F33A1CD067CF00435DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "$(SRCROOT)/PlayOne/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightcove.PlayOne;
+				PRODUCT_NAME = PlayOne;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAE6F31C1CD067CF00435DEB /* Build configuration list for PBXProject "PlayOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE6F3361CD067CF00435DEB /* Debug */,
+				AAE6F3371CD067CF00435DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAE6F3381CD067CF00435DEB /* Build configuration list for PBXNativeTarget "PlayOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAE6F3391CD067CF00435DEB /* Debug */,
+				AAE6F33A1CD067CF00435DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAE6F3191CD067CF00435DEB /* Project object */;
+}
